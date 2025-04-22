@@ -11,8 +11,8 @@
   "dependencies": {
     "connect-mongo": "^3.2.0",
     "git": "^0.1.5",
-    "mongodb": "^4.0.0"
+    "mongodb": "^3.1.10",
+    "nodemon": "^3.1.9"
   },
-  "devDependencies": {},
   "description": ""
 }
