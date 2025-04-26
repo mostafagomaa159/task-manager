@@ -1,16 +1,16 @@
 //CRUD Create / Read / Update / Delete
 
-const { MongoClient, ObjectID } = require('mongodb')
+// const { MongoClient, ObjectID } = require('mongodb')
 
-const connectionURL = 'mongodb://127.0.0.1:27017'
-const databaseName = 'task-manager'
+// const connectionURL = 'mongodb://127.0.0.1:27017'
+// const databaseName = 'task-manager'
 
-MongoClient.connect(connectionURL, (error, client) => {
-    if (error) {
+// MongoClient.connect(connectionURL, (error, client) => {
+//     if (error) {
 
-        return console.log('Unable to connect to database!')
-    }
-    const db = client.db(databaseName)
+//         return console.log('Unable to connect to database!')
+//     }
+//     const db = client.db(databaseName)
 
     //Create insertOne
     // db.collection('users').insertOne({
