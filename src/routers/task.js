@@ -38,7 +38,7 @@ router.get('/tasks', auth, async (req, res) => {
                 sort
             }
         }).execPopulate()
-        res.status(201).send(req.user.tasks)
+        res.send(req.user.tasks)
     } catch (e) {
         res.status(500).send()
     }
